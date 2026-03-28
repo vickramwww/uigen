@@ -1,0 +1,7 @@
+{
+  "autoUpdatesChannel": "latest",
+  "permissions": {
+    "allow": ["mcp__playwrite"],
+    "deny": []
+  }
+}
