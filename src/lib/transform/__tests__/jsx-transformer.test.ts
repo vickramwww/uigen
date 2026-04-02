@@ -66,9 +66,6 @@ test("transformJSX handles transform errors gracefully", () => {
 
   expect(result.code).toBe("");
   expect(result.error).toBe("Transform failed");
-  
-  // Reset the mock
-  vi.mocked(Babel.transform).mockReset();
 });
 
 test("createBlobURL creates blob with correct mime type", () => {
